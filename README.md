@@ -22,22 +22,18 @@ I work across the full software lifecycle — from UI development to backend ser
 
 ### Languages
 - **TypeScript**
-- **JavaScript**
 
 ### Frontend
 - React
 - React Native
-- Next.js
 - HTML & CSS
 
 ### Backend
 - Node.js
-- Express.js
 - NestJS
 
 ### Databases
 - PostgreSQL
-- MongoDB
 
 ### Cloud & DevOps
 - Amazon Web Services (AWS)
