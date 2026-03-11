@@ -2,7 +2,7 @@
 
 ## 🚀 Full Stack Developer | Cloud-Native & DevOps-Oriented Engineer
 
-I am a **Full Stack Developer** with a strong focus on **cloud-native architectures**, **TypeScript**, and **Python**, building scalable applications from frontend to cloud infrastructure.
+I am a **Full Stack Developer** with a strong focus on **cloud-native architectures** and **TypeScript**, building scalable applications from frontend to cloud infrastructure.
 
 I work across the full software lifecycle — from UI development to backend services and cloud deployment — always prioritizing **clean architecture**, **performance**, and **cost-efficient solutions**.
 
