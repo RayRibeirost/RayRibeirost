@@ -23,7 +23,6 @@ I work across the full software lifecycle — from UI development to backend ser
 ### Languages
 - **TypeScript**
 - **JavaScript**
-- **Python**
 
 ### Frontend
 - React
