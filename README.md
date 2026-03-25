@@ -1,120 +1,163 @@
-# Hi there 👋 I'm Raylander Ribeiro
+# Hi, I'm Raylander Ribeiro 👋
 
-## 🚀 Full Stack Developer | Cloud-Native & DevOps-Oriented Engineer
+## ☁️ DevOps & Cloud Engineer | AWS SAA · DVA · Docker · Terraform · TypeScript · NestJS
 
-I am a **Full Stack Developer** with a strong focus on **cloud-native architectures** and **TypeScript**, building scalable applications from frontend to cloud infrastructure.
+I'm a **DevOps and Cloud Engineer** with a software development background — which means I don't just operate infrastructure, I understand how the code running on top of it works.
 
-I work across the full software lifecycle — from UI development to backend services and cloud deployment — always prioritizing **clean architecture**, **performance**, and **cost-efficient solutions**.
+I hold **four AWS certifications** (including Solutions Architect Associate and Developer Associate) and I'm currently building a portfolio focused on real-world infrastructure: CI/CD pipelines, Infrastructure as Code with Terraform, containerized deployments, and cloud-native architectures on AWS.
 
 ---
 
 ## 🧑‍💻 About Me
 
-- 🌍 Based in **Recife, Brazil**
-- 💼 Working as a **Full Stack Developer**
-- ☁️ Strong focus on **AWS cloud services** and **cloud-native architectures**
-- 🧠 Passionate about **software engineering fundamentals**, **DevOps culture**, and **scalable systems**
-- 🌱 Continuously improving skills in backend architecture, mobile development, and infrastructure automation
+- 🌍 Based in **Recife, Brazil** — open to remote and relocation
+- ☁️ Focused on **Cloud Engineering**, **DevOps**, and **Platform Engineering**
+- 🔧 Building production-ready systems with **Docker**, **Terraform**, **GitHub Actions**, and **AWS**
+- 💻 Strong backend background with **TypeScript**, **NestJS**, and **Node.js**
+- 🎯 Goal: Staff/Principal Cloud Engineer — currently targeting first professional role in DevOps/Cloud
+- 🌐 Long-term: working in **Portugal** and **Ireland**
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
-- **TypeScript**
+### ☁️ Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
 
-### Frontend
-- React
-- React Native
-- HTML & CSS
+**AWS Services:** EC2 · S3 · RDS · Lambda · IAM · VPC · CloudWatch · API Gateway · SNS · SQS · DynamoDB
 
-### Backend
-- Node.js
-- NestJS
+### ⚙️ DevOps & CI/CD
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-### Databases
-- PostgreSQL
+CI/CD Pipelines · Infrastructure as Code · GitOps · Automated Deployments
 
-### Cloud & DevOps
-- Amazon Web Services (AWS)
-- Serverless architectures
-- Managed cloud services
-- Infrastructure as Code (Terraform, Ansible)
-- CI/CD pipelines
-- Containerization
+### 💻 Backend Development
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+
+REST APIs · TypeORM · PostgreSQL · MySQL · Redis
 
 ---
 
 ## ☁️ AWS Certifications
 
-- **AWS Certified Developer – Associate**
-- **AWS Certified Solutions Architect - Associate**
-- **AWS Certified AI Practitioner**
-- **AWS Certified Cloud Practitioner**
+| Certification | Level |
+|---|---|
+| AWS Certified Solutions Architect – Associate (SAA-C03) | Associate |
+| AWS Certified Developer – Associate (DVA-C02) | Associate |
+| AWS Certified AI Practitioner (AIF-C01) | Foundational |
+| AWS Certified Cloud Practitioner (CLF-C02) | Foundational |
+
+---
+
+## 🗂️ Portfolio Projects
+
+### 🏦 [Bank Account API](https://github.com/RayRibeirost/bank-api)
+> Financial REST API built with NestJS, TypeScript and PostgreSQL
+
+- Domain-driven design with OOP inheritance — `Account → CheckingAccount / SavingsAccount`
+- ACID transactions for transfers — full rollback on failure
+- JWT authentication with refresh token and role-based authorization
+- Full CI/CD pipeline with GitHub Actions — automated deploy to AWS EC2
+- Dockerized with multi-stage build + docker-compose
+- Infrastructure provisioned with Terraform — VPC, EC2, RDS, Security Groups
+
+`NestJS` `TypeScript` `PostgreSQL` `Docker` `Terraform` `GitHub Actions` `AWS EC2` `JWT`
+
+---
+
+### 💊 [Drugstore API — Infrastructure Focus](https://github.com/RayRibeirost/api-drugstore)
+> NestJS API showcasing complete IaC and DevOps pipeline
+
+- Full AWS infrastructure as code with Terraform — VPC, public/private subnets, EC2, RDS MySQL
+- Multi-stage Dockerfile — optimized production image
+- docker-compose with API + MySQL + Adminer
+- GitHub Actions pipeline — test → build → terraform plan → deploy
+- Architecture diagram and full English documentation
+
+`NestJS` `TypeScript` `MySQL` `Docker` `Terraform` `GitHub Actions` `AWS` `IaC`
+
+---
+
+### 🥗 [Healthy Food API](https://github.com/RayRibeirost/healthy-food-api)
+> Production-grade REST API with authentication and observability
+
+- JWT authentication with bcrypt and Passport strategies
+- Structured logging with Winston — request interceptor logging method, route, status and response time
+- Health check endpoint — database connectivity monitoring
+- Swagger documentation auto-generated
+- Serverless deployment on AWS Lambda + API Gateway
+
+`NestJS` `TypeScript` `PostgreSQL` `JWT` `Swagger` `AWS Lambda` `Docker`
+
+---
+
+### 🎮 [GameStore API](https://github.com/RayRibeirost/gamestore-api)
+> Async processing and multi-container architecture
+
+- Async job processing with BullMQ + Redis — email notifications and stock alerts
+- Multi-container docker-compose — API + PostgreSQL + Redis
+- Role-based authorization — admin vs user permissions
+- TypeORM migrations — no synchronize in production
+
+`NestJS` `TypeScript` `PostgreSQL` `Redis` `BullMQ` `Docker` `JWT`
 
 ---
 
 ## 💼 Professional Experience
 
-### 📱 Mobile Developer Intern — React Native & AWS Cloud Context
+### ☁️ Mobile Developer — React Native & AWS Cloud Context
 **Compass UOL** · Oct 2024 – Mar 2025
 
-- Developed and optimized mobile applications using **React Native**
-- Built interactive interfaces and integrated APIs using **Axios**
-- Implemented unit tests with **Jest** and **React Testing Library**
-- Participated in deployments and project presentations
-- Delivered functional and well-structured solutions in a collaborative environment
+- Developed mobile applications with React Native within an AWS cloud environment
+- Responsible for deploying applications to AWS — integrating managed cloud services
+- Integrated REST APIs with Axios and implemented unit tests with Jest and React Testing Library
+- Led technical deliveries and presented results in an agile environment
 
 ---
 
-### 🌐 Frontend Web Developer Intern
-**Softex Pernambuco (in partnership with JGT.tec)** · Feb 2023 – Aug 2023
+### 🌐 Frontend Web Developer
+**Softex Pernambuco** · Feb 2023 – Aug 2023
 
-- Led a small team in the development of a **business consulting web application**
-- Responsible for **project management**, **UI/UX design**, and **frontend development**
-- Delivered an MVP using **React, JavaScript, HTML, CSS, and Figma**
-- Applied best practices in modern web development and interface design
-
----
-
-### 📦 Inventory Auditor / Accountant
-**Terceirease Serviços de Inventário de Estoque Ltda.** · Mar 2024 – Oct 2025
-
-- Performed physical inventory counts across pharmacies, retail stores, and supermarkets
-- Conducted inventory audits and analyzed discrepancies after stock counts
-- Helped optimize inventory management and reduce operational errors
+- Led a team building a business consulting Web App from concept to MVP
+- Responsible for UI/UX design, React/JavaScript frontend architecture, and project management
+- Project incubated by Sebrae after pitch to evaluation board
 
 ---
 
-### 🎨 Graphic Designer
-**Microart Sinalização e Gráfica Ltda.** · Aug 2016 – Jan 2023
+## 🎓 Education & Training
 
-- Created brand identities, visual assets, and printed materials
-- Worked across the full design lifecycle, from concept to final production
-- Used **CorelDRAW** and **Adobe Creative Suite** tools extensively
-
----
-
-## 🎓 Education
-
-- **Bachelor of Technology (CST) in Systems Analysis and Development**  
-  Faculdade VINCIT · Jun 2023 – Oct 2025
+| Program | Institution | Year |
+|---|---|---|
+| B.Tech — Systems Analysis and Development | FACINT | Jun 2023 – Oct 2025 |
+| Fullstack TypeScript Bootcamp | Generation Brasil | 2025–2026 |
+| FAST Platform Engineering | CESAR School | Nov 2025 |
+| DevOps Bootcamp | Avanti Atlântico | Oct 2025 |
+| AWS Developing · Architecting · Operations | AWS Academy | 2023–2025 |
+| Cloud Foundations and Development + DPCN | Escola da Nuvem | 2023–2025 |
 
 ---
 
 ## 🌐 Languages
 
-- **Portuguese** — Native or Bilingual Proficiency
-- **English** — Professional Working Proficiency
+- 🇧🇷 **Portuguese** — Native
+- 🇬🇧 **English** — Intermediate (strong reading and listening; writing and speaking · actively developing)
 
 ---
 
-## 📫 Contact
+## 📫 Let's Connect
 
-- 📧 Email: **ribeiroraylander7@gmail.com**
-- 💼 LinkedIn: [linkedin.com/in/raylanderribeiro](https://www.linkedin.com/in/raylanderribeiro)
-- 🧑‍💻 GitHub: [github.com/RayRibeirost](https://github.com/RayRibeirost)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/raylanderribeiro)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/RayRibeirost)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ribeiroraylander7@gmail.com)
 
 ---
 
-> 💡 *This GitHub profile highlights projects focused on software engineering fundamentals, cloud-native development, and scalable system design — aligned with international engineering standards.*
+> *"I don't just use cloud tools — I understand why they exist and how to build systems that depend on them reliably."*
